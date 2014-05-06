@@ -5,7 +5,7 @@
            fetch=".."
            review="https://android-review.googlesource.com/" />
   <remote  name="fork"
-           fetch="git@github.com:dschaefer/android-sdk.git" />
+           fetch="git@github.com:dschaefer/" />
   <default revision="master"
            remote="aosp"
            sync-j="4" />
