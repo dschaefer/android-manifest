@@ -2,9 +2,9 @@
 <manifest>
 
   <remote  name="fork"
-           fetch="git@github.com:dschaefer/" />
+           fetch="ssh://git@github.com/dschaefer/" />
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/platform/"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="master"
            remote="aosp"
@@ -439,7 +439,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="tools_r22.6" />
-  <project path="sdk" name="platform/sdk" revision="tools_r22.6f" remote="fork" />
+  <project path="sdk" name="android-sdk" revision="tools_r22.6f" remote="fork" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
