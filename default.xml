@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="fork"
-           fetch="ssh://git@github.com/dschaefer/" />
+           fetch="." />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
